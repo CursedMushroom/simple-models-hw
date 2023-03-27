@@ -26,6 +26,6 @@ const DogSchema = new mongoose.Schema({
   },
 
 });
-DogModel = mongoose.model('Cat', DogSchema);
+DogModel = mongoose.model('Dog', DogSchema);
 
 module.exports = DogModel;
